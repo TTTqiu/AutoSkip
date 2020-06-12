@@ -1,0 +1,4 @@
+    android.location.Location point = new android.location.Location("Manual");
+    point.setLatitude(40.714542);
+    point.setLongitude(-74.00713499999999);
+    WrappedLocationManager.getSharedInstance().setManualLocation(point);
